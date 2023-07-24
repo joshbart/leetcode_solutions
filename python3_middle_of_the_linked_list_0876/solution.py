@@ -1,9 +1,5 @@
 import typing
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from listnode import ListNode
 
 class Solution:
     def middleNode(self, head: typing.Optional[ListNode]) -> typing.Optional[ListNode]:
