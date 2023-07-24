@@ -1,5 +1,5 @@
 class Solution:
-    def generateMatrix(self, n: int) -> List[List[int]]:
+    def generateMatrix(self, n: int) -> list[list[int]]:
         matrix = [[0] * n for x in range(n)]
         column_index = 0
         row_index = 0
