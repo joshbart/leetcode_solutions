@@ -1,5 +1,7 @@
 import unittest
-import solution as s
+import solution
+
+s = solution.Solution()
 
 class TestProblem13(unittest.TestCase):
 
@@ -17,3 +19,6 @@ class TestProblem13(unittest.TestCase):
         data = 4
         result = s.generateMatrix(data)
         self.assertEqual(result, [[1,2,3,4],[12,13,14,5],[11,16,15,6],[10,9,8,7]])
+
+if __name__ == "__main__":
+    unittest.main()
