@@ -1,5 +1,7 @@
 import unittest
-import solution as s
+import solution
+
+s = solution.Solution()
 
 class TestProblem13(unittest.TestCase):
 
@@ -17,3 +19,6 @@ class TestProblem13(unittest.TestCase):
         data = "MCMXCIV"
         result = s.romanToInt(data)
         self.assertEqual(result, 1994)
+
+if __name__ == "__main__":
+    unittest.main()
