@@ -13,7 +13,7 @@ class TestProblem13(unittest.TestCase):
         result = s.romanToInt(data)
         self.assertEqual(result, 58)
 
-    def test_case_3(self, parameter_list):
+    def test_case_3(self):
         data = "MCMXCIV"
         result = s.romanToInt(data)
         self.assertEqual(result, 1994)
