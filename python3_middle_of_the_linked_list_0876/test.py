@@ -11,5 +11,11 @@ class TestProblem(unittest.TestCase):
         actual_result = s.middleNode(data)
         self.assertEqual(actual_result, expected_result)
 
+    def test_case_2(self):
+        data = [1,2,3,4,5,6]
+        expected_result = [4,5,6]
+        actual_result = s.middleNode(data)
+        self.assertEqual(actual_result, expected_result)
+
 if __name__ == "__main__":
     unittest.main()
