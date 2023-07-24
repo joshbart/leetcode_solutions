@@ -1,10 +1,12 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+import typing
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
 class Solution:
-    def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def middleNode(self, head: typing.Optional[ListNode]) -> typing.Optional[ListNode]:
         nodes = self.count_nodes(head)
         middle_point = (nodes // 2) + 1
         current_node = head
