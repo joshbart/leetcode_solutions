@@ -1,5 +1,5 @@
 class Solution:
-    def maximumWealth(self, accounts: List[List[int]]) -> int:
+    def maximumWealth(self, accounts: list[list[int]]) -> int:
         most_wealth = 0
         for cust in range(len(accounts)):
             cust_wealth = 0
